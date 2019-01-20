@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:background="@color/black_item"
+    >
+
+    <chapter.android.aweme.ss.com.homework.widget.CircleImageView
+        android:id="@+id/iv_icon_number"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_title_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/iv_icon_number"
+        android:textSize="15sp"
+        android:lineHeight="18sp"
+        android:textColor="#ffffff"
+        tools:text="abc" />
+
+    <TextView
+        android:id="@+id/tv_tag_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:lineHeight="16sp"
+        android:textColor="#80ffffff"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/iv_icon_number"
+        tools:text="abc" />
+
+    <TextView
+        android:id="@+id/tv_time_number"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="16dp"
+        android:textColor="#57ffffff"
+        android:lineHeight="15sp"
+        tools:text="刚刚"/>
+</RelativeLayout>
+    
